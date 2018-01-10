@@ -16,3 +16,8 @@ used the maxout activation.
 
 ![Architecture](dcgan.png)
 
+## Results 
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="" src="https://github.com/divyam3897/gans/tree/master/dcgans/results/">  Image generated with relu without batch norm |  <img width="1604" alt="" src="https://github.com/divyam3897/gans/tree/master/dcgans/results/generated_image_batch_norm_relu.png">Relu with batch norm|<img width="1604" alt="" src="https://github.com/divyam3897/gans/tree/master/dcgans/results/generated_200_epochs.png"> Tanh with 200 epochs, no batchnorm|
+|<img width="1604" alt="" src="https://github.com/divyam3897/gans/tree/master/dcgans/results/no_batch_norm_disc_tanh.png"> Tanh with no batch norm in discriminator  |  <img width="1604" alt="" src="https://github.com/divyam3897/gans/tree/master/dcgans/results/gen_disc_tanh_batchnorm.png"> Tanh with batch norm in generator and discriminator|<img width="1604" alt="" src="https://github.com/divyam3897/gans/tree/master/dcgans/results/tanh_batch_noise_gen.png"> Gaussian noise in generator with tanh and batch norm|
